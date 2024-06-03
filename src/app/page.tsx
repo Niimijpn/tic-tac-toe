@@ -70,7 +70,7 @@ export default function Board() {
   }
 
   const winner = calculateWinner(squares);
-  let satus;
+  let status;
   if (winner) {
     status = "Winner:" + winner;
   } else {
